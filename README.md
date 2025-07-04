@@ -18,13 +18,15 @@
 
 ## 📁 Estructura de carpetas
 
+```plaintext
 /reservas-ec
-├── frontend/ # Next.js App
-├── auth-service/ # Servicio de autenticación
-├── user-service/ # Servicio de usuarios
-├── booking-service/ # Servicio de reservas
+├── frontend/             # Next.js App
+├── auth-service/         # Servicio de autenticación
+├── user-service/         # Servicio de usuarios
+├── booking-service/      # Servicio de reservas
 ├── notification-service/ # Servicio de notificaciones por email
-└── docker-compose.yml # Orquestación de todos los servicios
+└── docker-compose.yml    # Orquestación de todos los servicios
+```
 
 ---
 
@@ -74,7 +76,7 @@ docker-compose up
 
 La app estará disponible en http://localhost:3000
 
-##✅ Funcionalidades principales
+## ✅ Funcionalidades principales
 
 - Registro e inicio de sesión de usuarios
 
